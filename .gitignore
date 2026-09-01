@@ -1,0 +1,50 @@
+# ===== 构建产物 =====
+build/
+cmake-build-*/
+out/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.exe
+*.dll
+*.moc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.prl
+*.app
+
+# ===== CMake =====
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+Makefile2
+Makefile.cmake
+CMakeLists.txt.user
+*.cmake.user
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.user
+*.autosave
+*.suo
+*.sln
+*.vcxproj*
+*.pro.user
+
+# ===== 旧仓库备份（本地保留，不入库） =====
+.git.bak/
+opencv_project/
+
+# ===== 工作区与系统文件 =====
+.workbuddy/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
